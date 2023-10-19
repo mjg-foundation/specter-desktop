@@ -5,3 +5,4 @@ class Passport(Keystone):
     device_type = "passport"
     name = "Passport"
     icon = "img/devices/passport_icon.svg"
+    taproot_support = True
